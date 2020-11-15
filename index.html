@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukrainian Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ОТРИМУЄМ ПОГОДИ ПО API</h1>
+        <h2>Проект Кучера Артема</h2>
+    </header>
+
+    <div class="container">
+        <h3>Щоб отримати прогноз на кілька днів вперед, обирайте Ваше місто тут:</h3>
+        <select class="city">
+            <option value="lat=50.4333&lon=30.5167">Kyiv</option>
+            <option value="lat=49.8383&lon=24.0232">Lviv</option>
+            <option value="lat=46.4775&lon=30.7326">Odesa</option>
+            <option value="lat=50&lon=36.25">Kharkiv</option>
+        </select>
+
+        <div class="day-one">
+            <h3>День перший</h3>
+
+            <p class="day-one-temperature"></p>
+            <p class="day-one-clouds"></p>
+            <hr>
+            <p class="day-one-pressure"></p>
+            <hr>
+            <p class="day-one-features"></p>
+        </div>
+
+        <div class="day-two">
+            <h3>День другий</h3>
+
+            <p class="day-two-temperature"></p>
+            <p class="day-two-clouds"></p>
+            <hr>
+            <p class="day-two-pressure"></p>
+            <hr>
+            <p class="day-two-features"></p>
+        </div>
+
+        <div class="day-three">
+            <h3>День третій</h3>
+
+            <p class="day-three-temperature"></p>
+            <p class="day-three-clouds"></p>
+            <hr>
+            <p class="day-three-pressure"></p>
+            <hr>
+            <p class="day-three-features"></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
